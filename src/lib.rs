@@ -1,5 +1,5 @@
-//! The `fbx` crate allow to read `fbx` 3D model files. It is based on the `blender` implementation 
-//! of the `FBX` file format.
+//! The `fbx` crate allow to parse and load `fbx` 3D model files. It is based on the `blender` 
+//! implementation of the `FBX` file format.
 
 extern crate bytepack;
 extern crate flate2;
