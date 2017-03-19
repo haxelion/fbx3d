@@ -1,11 +1,11 @@
 [package]
-name = "fbx"
+name = "fbx3d"
 version = "0.1.0"
 authors = ["Charles Hubain <github@haxelion.eu>"]
-description = "fbx allow to parse and load FBX 3D model"
-documentation = "https://docs.rs/fbx"
-homepage = "https://github.com/haxelion/fbx"
-repository = "https://github.com/haxelion/fbx"
+description = "fbx-rs allow to parse and load FBX 3D model"
+documentation = "https://docs.rs/fbx3d"
+homepage = "https://github.com/haxelion/fbx3d"
+repository = "https://github.com/haxelion/fbx3d"
 license = "Apache-2.0"
 
 [dependencies]

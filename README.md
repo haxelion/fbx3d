@@ -1,11 +1,11 @@
-fbx
-===
+fbx3d
+=====
 
-[![Crates.io](https://img.shields.io/crates/v/fbx.svg)](https://crates.io/crates/fbx)
-[![Build Status](https://travis-ci.org/haxelion/fbx.svg?branch=master)](https://travis-ci.org/haxelion/fbx)
-[![Docs.rs](https://docs.rs/fbx/badge.svg)](https://docs.rs/fbx)
+[![Crates.io](https://img.shields.io/crates/v/fbx3d.svg)](https://crates.io/crates/fbx3d)
+[![Build Status](https://travis-ci.org/haxelion/fbx3d.svg?branch=master)](https://travis-ci.org/haxelion/fbx3d)
+[![Docs.rs](https://docs.rs/fbx3d/badge.svg)](https://docs.rs/fbx3d)
 
-The `fbx` crate allow to parse and load `fbx` 3D model files. It is based on the `blender` 
+The `fbx3d` crate allow to parse and load `FBX` 3D model files. It is based on the `blender` 
 implementation of the `FBX` file format.
 
 It is currently only able to parse the file format into a Rust representation. I plan to write 
