@@ -7,7 +7,7 @@ use bytepack::{LEUnpacker, Packed};
 use flate2::{Decompress, Flush};
 
 /// Represent a typed property of the FBX file format.
-#[derive(Clone)]
+#[derive(Clone, Debug)]
 pub enum Property {
     B(bool),
     I16(i16),
@@ -27,7 +27,7 @@ pub enum Property {
 
 /// Represent a Node of the FBX file format. Each node has a `name` (or id) and is composed of a 
 /// list of [`Property`](enum.Property.html) and a list of sub [`Node`](struct.Node.html).
-#[derive(Clone)]
+#[derive(Clone, Debug)]
 pub struct Node {
     /// Name of the node.
     pub name: String,
