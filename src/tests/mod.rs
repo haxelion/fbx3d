@@ -8,3 +8,11 @@ fn blender_cube() {
     let cube = decode_fbx(&mut cube_file).unwrap();
     println!("{:?}", cube);
 }
+
+#[test]
+fn blender_multiples() {
+    let mut multiples_file = File::open("testcases/multiples.fbx").unwrap();
+    let multiples = decode_fbx(&mut multiples_file).unwrap();
+    println!("{:?}", multiples);
+}
+
